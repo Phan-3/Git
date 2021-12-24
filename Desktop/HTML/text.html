@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Leading */
+        .a{
+            margin: 0px;
+            line-height: 5em;
+            background-color: orchid;
+        }
+        /* Letter or word spacing */
+        .para{
+            margin: 0px;
+            letter-spacing: 3px;
+            word-spacing: 5px;
+            background-color: palegreen;
+        }
+        .di{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+        }
+        /* Agliments */
+        .iq{
+            text-align: center;
+            background-color: papayawhip;
+        }
+        /* Vertical agliments */
+        .ad img{
+            vertical-align: middle;
+        }
+        /* Indenting text */
+        .ko{
+            text-indent: 20px;
+        }
+        /* Drop shadow */
+        .sha{
+            text-shadow: 3px 2px 1px red;
+        }
+        /* First letter or line */
+        .fir::first-letter{
+            font-size: 300%;
+        }
+        .fir::first-line{
+            font-weight: 900;
+        }
+        /* styling links */
+        .lin{
+            text-decoration: none;
+            background-color: black;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .lin:link{
+            color: blue;
+        }
+        .lin:visited{
+            color: red;
+        }
+        .lin:hover{
+            color: orangered;
+        }
+        .lin:active{
+            color: green;
+        }
+    </style>
+      
+</head>
+<body>
+    <div>
+        <!-- Leading -->
+        <p class="a">The Moog company pioneered the commercial
+         manufacture of modular voltage-controlled 
+         analog synthesizer systems in the early 
+         1950s.</p>
+         <p class="a">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Harum sapiente perspiciatis totam, distinctio facere odio repudiandae, 
+            enim corrupti, mollitia atque ducimuscupiditate voluptates! 
+            Repellat magnam amet harum architecto. Porro, nam.</p>
+    </div>
+    <!-- Letter spacing and Word spacing -->
+    <div class="di"> <p class="para">Lorem ipsum dolor sit, amet consectetur 
+        adipisicing elit.Harum sapiente perspiciatis totam, distinctio 
+        facere odio repudiandae, enim corrupti, mollitia atque ducimuscupiditate 
+        voluptates! Repellat magnam amet harum architecto. Porro, nam.</p>
+        <!-- Agliments -->
+        <p class="iq">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatum perspiciatis nostrum asperiores. Delectus molestiae 
+            fuga amet consequatur autem, earum nisi labore alias repellat 
+            officiis itaque iusto dolorum veritatis porro maxime.</p>
+            <!-- Vertical agliments -->
+        <div>    
+            <p class="ad"><img width="300px" height="300px" src="https://th.bing.com/th/id/R.7cbe6c62e4405a39d90135cd80e246f0?rik=KzFpONDSwzt3Tg&riu=http%3a%2f%2fstoneycreeker.com%2fimages%2fwallpaper%2fsnowy_morning_1280x1024.jpg&ehk=jfIayTprzs5d%2bRw615qYzZj0OpvD5Rezdg6v%2f0EzqUc%3d&risl=&pid=ImgRaw&r=0" alt="Images">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, officiis?</p></div>
+            <!-- Indenting text -->
+        <p class="ko">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Porro minus culpa ipsa. Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Illum, rem. Et placeat consectetur, odit beatae iste 
+            cupiditate eos commodi omnis suscipit esse.
+             Eum facilis delectus aspernatur aliquam odio ipsa eaque?</p> 
+             <!-- Drop shadow -->
+        <p class="sha">Lorem ipsum dolor sit amet.</p> 
+        <!-- First letter or line -->
+        <p class="fir">Lorem ipsum dolor sit.</p>
+        </div>
+        <!-- styling links -->
+        <div >
+            <a class="lin"  href="#12">Lorem, ipsum dolor.</a>
+        </div>
+</body>
+</html>
